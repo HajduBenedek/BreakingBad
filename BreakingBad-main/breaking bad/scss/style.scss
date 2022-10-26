@@ -1,0 +1,79 @@
+$cb: black;
+$cw: white;
+$cg1:#093009;
+$cg2:#0d3e10;
+$cg3:#1f6032;
+$cg4:#29773e;
+$cg5:#369457;
+$cg6:#032202;
+$co1:#af6010;
+$co2:#a67442;
+$co3:#a67442;
+$m1: -10px;
+
+header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("../img/c2fbbda2392e36fb557c3003d1605858.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $cw;
+    font-size: 30px;
+    border-bottom: 1px solid $cb;
+    text-shadow: 2px 2px $cb;
+    margin: $m1;
+  }
+
+#logo {
+    height: 200px;
+    width: 300px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 35px;
+  background-color: $co1;
+  margin-left: $m1;
+  margin-right: $m1;
+  position:fixed;
+  width:100%;
+  color: $cb;
+}
+
+body {
+  background-color: $co2;
+}
+
+div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 55px;
+  padding-left: 55px;
+  border-bottom: 1px solid $cb;
+}
+
+ .collapsible {
+  background-color: $cw;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color:$cw;
+} 

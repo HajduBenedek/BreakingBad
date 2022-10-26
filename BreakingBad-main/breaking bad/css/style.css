@@ -1,0 +1,64 @@
+header {
+  padding: 60px;
+  text-align: center;
+  background-image: url("../img/c2fbbda2392e36fb557c3003d1605858.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  text-shadow: 2px 2px black;
+  margin: -10px;
+}
+
+#logo {
+  height: 200px;
+  width: 300px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 35px;
+  background-color: #af6010;
+  margin-left: -10px;
+  margin-right: -10px;
+  position: fixed;
+  width: 100%;
+  color: black;
+}
+
+body {
+  background-color: #a67442;
+}
+
+div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 55px;
+  padding-left: 55px;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}/*# sourceMappingURL=style.css.map */
