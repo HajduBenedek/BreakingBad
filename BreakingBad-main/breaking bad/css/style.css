@@ -27,6 +27,7 @@ footer {
   position: fixed;
   width: 100%;
   color: black;
+  height: 50px;
 }
 
 body {
@@ -80,4 +81,9 @@ td, th, tr, tbody, thead {
 
 th {
   text-align: center;
+}
+
+#footer {
+  text-align: right;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.css.map */

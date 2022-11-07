@@ -14,17 +14,21 @@ $m1: -10px;
 $ha: #ccc;
 $n: none;
 $s: solid;
+$c: center;
+$hu: 20px;
+$v: 55px;
+$e: 1px;
 
 header {
     padding: 60px;
-    text-align: center;
+    text-align: $c;
     background-image: url("../img/c2fbbda2392e36fb557c3003d1605858.jpg");
-    background-position: center;
+    background-position: $c;
     background-repeat: no-repeat;
     background-size: cover;
     color: $cw;
     font-size: 30px;
-    border-bottom: 1px $s $cb;
+    border-bottom: $e $s $cb;
     text-shadow: 2px 2px $cb;
     margin: $m1;
   }
@@ -35,15 +39,16 @@ header {
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
+  text-align: $c;
+  padding: $hu;
   margin-top: 35px;
   background-color: $co2;
   margin-left: $m1;
   margin-right: $m1;
   position:fixed;
-  width:100%;
+  width: 100%;
   color: $cb;
+  height: 50px;
 }
 
 body {
@@ -51,10 +56,10 @@ body {
 }
 
 div {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 55px;
-  padding-left: 55px;
+  padding-top: $hu;
+  padding-bottom: $hu;
+  padding-right: $v;
+  padding-left: $v;
   /*border-bottom: 1px solid $cb;*/
 }
 
@@ -80,7 +85,7 @@ div {
   display: $n;
   overflow: hidden;
   background-color:$cw;
-  border-bottom: 1px $s;
+  border-bottom: $e $s;
   border-color:$ha;
 } 
 
@@ -90,7 +95,7 @@ table {
   margin-right:auto;
   background-color: $cg5;
   border:$s;
-  text-align: center;
+  text-align: $c;
 }
 
 td,th,tr,tbody,thead{
@@ -98,5 +103,11 @@ td,th,tr,tbody,thead{
 }
 
 th {
-  text-align: center;
+  text-align: $c;
+}
+
+
+#footer {
+  text-align: right;
+  margin-top: $hu;
 }
